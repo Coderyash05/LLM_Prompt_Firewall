@@ -1,0 +1,130 @@
+# ============================================
+# Python / Colab
+# ============================================
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+env/
+ENV/
+.env
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb
+!AdaptiveGuard.ipynb
+
+# ============================================
+# API Keys & Secrets
+# ============================================
+
+# Never commit API keys!
+config.py
+secrets.py
+.env
+*.pkl
+*.key
+
+# ============================================
+# Data Files (Generated during runs)
+# ============================================
+
+# CSV files
+*.csv
+!requirements.csv
+
+# Log files
+*.log
+*.log.txt
+
+# ============================================
+# Results & Plots (Generated during runs)
+# ============================================
+
+# Results folder
+results/
+*.csv
+*.pkl
+
+# Plots folder
+plots/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# ============================================
+# LaTeX / Paper Build Files
+# ============================================
+
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.toc
+*.lot
+*.lof
+*.dvi
+
+# ============================================
+# OS Generated Files
+# ============================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*.swp
+*.swo
+
+# ============================================
+# IDE Files
+# ============================================
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# ============================================
+# Temporary Files
+# ============================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*.cache
+
+# ============================================
+# Large Files (Optional)
+# ============================================
+
+# Uncomment if you have large files
+# *.h5
+# *.pth
+# *.pt
+# *.tar.gz
+# *.zip
